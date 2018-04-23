@@ -15,6 +15,12 @@ public abstract class Product {
     private String name;
     private String describe;
 
+    public Product(double price, String name, String describe) {
+        this.price = price;
+        this.name = name;
+        this.describe = describe;
+    }
+
     public double getPrice() {
         return price;
     }
